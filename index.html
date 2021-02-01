@@ -2,26 +2,22 @@
 <html lang="en">
 <head>
     <meta charset='utf-8'>
-    <title>Page Title</title>
+    <title>Fofm</title>
 
 </head>
 <body>
     <form>
-        Имя:<br>
-        <input type="text" name="name"><br>
-        Телефон:<br>
-        <input type="text" name="phone"><br>
-        Email:<br>
-        <input type="text" name="email"><br>
-        Пароль: <br>
-        <input type="password" name="password"><br>
-        Нравятся ли Вам занятия у Олега Чурило?<br>
-        <input type="radio" name="gender" value="yes" checked>Да:)<br>
-        <input type="radio" name="gender" value="normal"> Ничего не понятно, но очень интересно<br>
-        <input type="radio" name="gender" value="no"> Нет, верните мои деньги!
-        <br>
-        <textarea>Комментарий...
-        </textarea> <br>
+        <p><input type="text" id="name" required><label for="name"> Имя</label></p>
+        <p><input type="tel" id="phone" required><label for="phone"> Телефон</label>
+        <p><input type="email" id="email" required><label for="email"> Email</label></p>
+        <p><input type="password" id="password" required><label for="password"> Пароль</label></p>
+        <p><b>Нравятся ли Вам занятия у Олега Чурило?</b></p>
+        <p><input type="radio" name="gender" value="yes" checked>Да:)</p>
+        <p><input type="radio" name="gender" value="normal"> Ничего не понятно, но очень интересно</p>
+        <p><input type="radio" name="gender" value="no"> Нет, верните мои деньги!</p>
+        
+        <p><b>Введите ваш отзыв:</b></p>
+        <p><textarea name="comment"></textarea></p>
         <input type="submit">
         <input type="reset">
       </form>  
